@@ -115,3 +115,38 @@ while (n < 3) {
   n ++;
   x += n;
 ```
+## IF
+
+To make an if we do the following:
+```
+
+if (condición1)
+   sentencia1
+```
+Here, if we have a variable, we apply a condition to it in the if and it is met, it will execute the following
+
+## Switch
+
+To create a switch we do: 
+```
+switch (expression) {
+   case value1:
+     // Declarations executed when the expression result matches the value1
+     [break;]
+   case value2:
+     // Declarations executed when the expression result matches value2
+     [break;]
+   default:
+     // Declarations executed when none of the values match the value of the expression
+     [break;]
+```
+
+In this way we compare the variable with the list
+
+## Function
+
+```
+function square(number) {
+  return number * number;
+}
+```
