@@ -56,4 +56,23 @@ This is a examble of an object:
     nationality:"Spain"
 };``
 
-a lo mejor tengo que hacer las array aqui
+## JavaScript Blokers
+
+If we write `alert (" ");`  we can show a message that appears as an alert
+
+We can write in the browser console if we put `console.log (" ")`
+
+with console we also have `console.error (" ")` to send an error message
+
+## Blocks-leves
+
+We can create variables that we can modify with `let = number`.
+
+If we want to put a variable that cannot be modified we use `consts = 1;`
+
+## Variable properties
+
+with a sping variable we put `.length ()` to know its length
+
+To see only a few characters of a variable we use `substring (5,8)`. In this case we see from the fifth to the eighth character
+
