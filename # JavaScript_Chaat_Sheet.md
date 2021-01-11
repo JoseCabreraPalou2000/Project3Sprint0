@@ -2,11 +2,11 @@
 
 ## include JavaScipt
 To include JavaScript inside a page, you need to wrap it in `<script>` tags:
-
-``<script type="text/javascript">
+```
+<script type="text/javascript">
 //JS code goes here
-</script>``
-
+</script>
+```
 We can also execute the code of another file from the following menu:
 
 `<script src="myscript.js"></script><code></code>`
@@ -17,10 +17,10 @@ To comment we use the following:
 `/ this is a comment /`
 
 And if we want more than a line we use this:
-
-`` /* this is 
-a comment /* ``
-
+```
+ /* this is 
+a comment /* 
+```
 ## Variables
 
 We can declare variables in three different ways:
@@ -48,14 +48,14 @@ Variables can have different types of data, there are the following:
 Objects are variables that can have their own values and methods. The latter are actions that you can perform on objects.
 
 This is a examble of an object:
-
-``var client1 = {
+```
+var client1 = {
     firstName:"Jose",
     lastName:"Cabrera",
     age:20,
     nationality:"Spain"
-};``
-
+};
+```
 ## JavaScript Blokers
 
 If we write `alert (" ");`  we can show a message that appears as an alert
@@ -76,3 +76,42 @@ with a sping variable we put `.length ()` to know its length
 
 To see only a few characters of a variable we use `substring (5,8)`. In this case we see from the fifth to the eighth character
 
+## Multiple variables
+
+If we want to create a variable that has several values, first we create an array and then we create an object where we will define several variables
+
+For example:
+```
+conts person {
+   nombre = 'Jose',
+   lastName = 'Cabrera',
+}
+```
+
+Once this is done we can create an array
+```
+conts f1 = [ 
+conts person {firstname = 'jose', lastName = 'Cabrera', },
+conts person1 {firstname = 'Sergi', lastName = 'Palou', }
+]
+```
+## FOR
+
+To create loops we use For
+example:
+
+for (let step = 0; step < 5; step++) {
+
+
+## While
+
+
+We can also do loops with while
+
+```
+n = 0;
+x = 0;
+while (n < 3) {
+  n ++;
+  x += n;
+```
